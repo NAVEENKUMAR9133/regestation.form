@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form class="form1" action="login1.html" onsubmit="return navin()">
+    <fieldset class="form" >
+    <legend>Regestation form</legend>
+    FIRST NAME : <input type="text" id="fn" placeholder="first name" >
+    <label id="lb1" style="color:red;visibility:hidden;"> *please enter your  first name</label><br><br>
+    LAST NAME : <input type="text" name="ln1" id="ln" placeholder="last name" >
+    <label id="lb2"style="color:red;visibility:hidden;"> *please enter your last name</label><br><br>
+    AGE : <input type="number" name="age1" id="age" min="20" max="35" >
+    <label id="lb3" style="color:red; visibility:hidden;"> *please enter your age</label><br><br>
+    Gender: <br>
+    <input type="radio" name="ad" id="gm">Male
+    <input type="radio" name="ad" id="gf">Female
+    <label id="lb4"style="color:red; visibility:hidden;"> *please select  your gender </label>
+    <br><br>
+    Mobile number : <input type="text" name="" id="num">
+    <label id="lb5" style="color:red; visibility:hidden;"> *please enter your mobile number</label><br><br>
+    E Mail : <input type="email" name="em1"   id="em" placeholder="enter ur email">
+    <label id="lb6" style="color:red; visibility:hidden;"> *please enter your Email address</label><br><br>
+    Password : <input type="password"  id="psw1" placeholder=" Enter password">
+    <label id="lb7" style="color:red; visibility:hidden;"> *please enter password</label><br><br>
+    RePassword : <input type="password" required id="psw2" placeholder=" Enter password">
+    <label id="lb8" style="color:red; visibility:hidden;"> *please enter your RePassword</label><br><br>
+    <button onclick="navin()">submit</button>
+    </fieldset>
+
+  </form>
+
+</body>
+</html>
